@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  src: url('../fonts/LibreCaslonCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+
+  width: 100%;
+  min-height: 100%;
+}
+
+a{
+    color:#AAA;
+}
+
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+
+  width: 100%;
+}
+
+button {
+  flex: 1 1 0;
+  
+  min-width: 0;
+  
+  margin: 0;
+  padding: 12px 10px;
+
+  font-family: "JetBrains Mono";
+  font-size: 15px;
+  color: #EEE;
+  
+  background-color: rgb(22, 22, 22);
+  
+  border-radius: 5px;
+  border: none;
+  
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Libre Caslon Condensed';
+  
+  margin-top: 0;
+}
+
+.screen {
+  min-height: 100vh;
+  background-color: rgb(11, 11, 11);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  color: #EEE;
+  font-family: "JetBrains Mono";
+  
+  gap: 50px;
+}
+
+.side {
+  position: sticky;
+  top: 100px;
+  margin-top: 100px;
+  width: 30%;
+  
+  flex-shrink: 0;
+  display: flex;
+  
+  color: #AAA;
+  
+  justify-content: flex-end;
+  align-items: center;
+  
+  gap: 15px;
+  text-align: left;
+}
+.side .bar {
+  width: 4px;
+  height: 120px;
+  
+  background-color: #EEE;
+  border-radius: 2px;
+}
+
+.side .label {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content {
+  flex: 0 0 30vw;
+  width: 30vw;
+  margin-top: 50px;
+}
+
+.content p {
+  margin: 0;
+  width: 100%;
+}
+/* ON HOVER */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ON CLICK */
+button:active {
+  transform: scale(0.95);
+}
