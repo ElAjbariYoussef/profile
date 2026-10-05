@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Libre Caslon Condensed';
+  src: url('../fonts/LibreCaslonCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  margin: 0;
+
+  width: 100%;
+  min-height: 100%;
+}
+
+.screen{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: rgb(11, 11, 11);
+
+    font-family:'Libre Caslon Condensed';
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width : 300px;
+    height : 100px;
+    background-color: rgb(5,5,5);
+    display: flex;
+    border-radius: 10%;
+    justify-content: start;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    background-color: #EEE;
+    margin : 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.title{
+    color: #EEE;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card:active{
+    transform: scale(0.95);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono';
+}
+
+.search-btn{
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    width : 100px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 0 20px;
+    font-family: "JetBrains Mono";
+    font-size: 15px;
+    color: #EEE;
+    
+    background-color: rgb(22, 22, 22);
+    
+    border-radius: 5px;
+    border: none;
+    
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.search-btn:hover,
+.search-btn:focus-visible{
+    transform: scale(1.05);
+}
+
+.search-btn:active{
+    transform: scale(0.95);
+}
+
+.search input{
+    width: 70%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    background-color: rgb(5,5,5);
+    color: #EEE;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 22px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search input::placeholder{
+    color: #777;
+}
+.search input:focus{
+    border-color: #EEE;
+}
+
+.card[hidden]{
+    display: none;
+}
+
+.empty{
+    margin: 40px 0 0;
+    text-align: center;
+    color: #777;
+    font-size: 22px;
+}
