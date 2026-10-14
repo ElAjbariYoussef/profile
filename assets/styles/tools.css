@@ -74,8 +74,10 @@ html, body {
     line-height: 1.1;
 }
 
-.card:hover{
-    transform: scale(1.05);
+@media (hover: hover){
+    .card:hover{
+        transform: scale(1.05);
+    }
 }
 
 .card:active{
@@ -111,9 +113,14 @@ html, body {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.search-btn:hover,
 .search-btn:focus-visible{
     transform: scale(1.05);
+}
+
+@media (hover: hover){
+    .search-btn:hover{
+        transform: scale(1.05);
+    }
 }
 
 .search-btn:active{
@@ -151,4 +158,51 @@ html, body {
     text-align: center;
     color: #777;
     font-size: 22px;
+}
+
+/* mobile */
+@media (max-width: 768px){
+    .screen{
+        padding: 16px;
+    }
+
+    .search{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .search-btn{
+        position: static;
+        width: auto;
+        height: 50px;
+        padding: 0 16px;
+    }
+
+    .search input{
+        width: auto;
+        flex: 1 1 auto;
+        min-width: 0;
+        font-size: 18px;
+    }
+
+    .grid{
+        gap: 12px;
+    }
+
+    .empty{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    .card{
+        width: 100%;
+        border-radius: 30px / 10px;
+    }
+
+    .title{
+        font-size: 26px;
+        padding-right: 12px;
+        overflow-wrap: anywhere;
+    }
 }
