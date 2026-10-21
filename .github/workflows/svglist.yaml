@@ -1,4 +1,4 @@
-name: svg listing
+name: tool listing
 
 on:
   push:
@@ -15,22 +15,47 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate assets/js/svg-list.js
+      - name: Generate assets/json/tools.json
         run: |
-          rm -f assets/js/svg-list.js
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
 
-          {
-            echo "const SVG_FILES = ["
-            for f in assets/img/svg/*.svg; do
-              echo "    '$(basename "$f")',"
-            done
-            echo "];"
-          } > assets/js/svg-list.js
+          source = Path('assets/img/svg')
+          target = Path('assets/json/tools.json')
+          existing = {}
+
+          if target.exists():
+              try:
+                  for item in json.loads(target.read_text(encoding='utf-8')):
+                      image = item.get('image')
+                      name = item.get('name')
+                      if isinstance(image, str) and isinstance(name, str) and name.strip():
+                          existing[image] = name.strip()
+              except (OSError, ValueError, TypeError):
+                  existing = {}
+
+          def display_name(filename):
+              words = Path(filename).stem.replace('_', ' ').replace('-', ' ').split()
+              return ' '.join(word[:1].upper() + word[1:] for word in words)
+
+          tools = []
+          for path in sorted(source.glob('*.svg')):
+              image = '../img/svg/' + path.name
+              tools.append({
+                  'name': existing.get(image) or display_name(path.name),
+                  'image': image,
+              })
+
+          tools.sort(key=lambda item: item['name'].lower())
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(json.dumps(tools, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          PY
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/js/svg-list.js
-          git diff --cached --quiet || git commit -m "fix : updating the svg list"
+          git add assets/json/tools.json
+          git diff --cached --quiet || git commit -m "chore: update tool list"
           git push

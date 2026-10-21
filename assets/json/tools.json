@@ -1,0 +1,310 @@
+[
+  {
+    "name": ".NET",
+    "image": "../img/svg/dotNet.svg"
+  },
+  {
+    "name": "Airflow",
+    "image": "../img/svg/airflow.svg"
+  },
+  {
+    "name": "Android",
+    "image": "../img/svg/android.svg"
+  },
+  {
+    "name": "Angular",
+    "image": "../img/svg/angular.svg"
+  },
+  {
+    "name": "Apache",
+    "image": "../img/svg/apache.svg"
+  },
+  {
+    "name": "Arch",
+    "image": "../img/svg/arch.svg"
+  },
+  {
+    "name": "Arduino",
+    "image": "../img/svg/arduino.svg"
+  },
+  {
+    "name": "AWS",
+    "image": "../img/svg/aWS.svg"
+  },
+  {
+    "name": "Bash",
+    "image": "../img/svg/bash.svg"
+  },
+  {
+    "name": "Blender",
+    "image": "../img/svg/blender.svg"
+  },
+  {
+    "name": "Burp Suite",
+    "image": "../img/svg/burpSuite.svg"
+  },
+  {
+    "name": "C#",
+    "image": "../img/svg/c#.svg"
+  },
+  {
+    "name": "Cassandra",
+    "image": "../img/svg/cassandra.svg"
+  },
+  {
+    "name": "Cloudflare",
+    "image": "../img/svg/cloudflare.svg"
+  },
+  {
+    "name": "CMake",
+    "image": "../img/svg/cMake.svg"
+  },
+  {
+    "name": "Dart",
+    "image": "../img/svg/dart.svg"
+  },
+  {
+    "name": "DBeaver",
+    "image": "../img/svg/dBeaver.svg"
+  },
+  {
+    "name": "Debian",
+    "image": "../img/svg/debian.svg"
+  },
+  {
+    "name": "Discord",
+    "image": "../img/svg/discord.svg"
+  },
+  {
+    "name": "Django",
+    "image": "../img/svg/django.svg"
+  },
+  {
+    "name": "Docker",
+    "image": "../img/svg/docker.svg"
+  },
+  {
+    "name": "Electron",
+    "image": "../img/svg/electron.svg"
+  },
+  {
+    "name": "Express",
+    "image": "../img/svg/express.svg"
+  },
+  {
+    "name": "Fedora",
+    "image": "../img/svg/fedora.svg"
+  },
+  {
+    "name": "Figma",
+    "image": "../img/svg/figma.svg"
+  },
+  {
+    "name": "Firebase",
+    "image": "../img/svg/firebase.svg"
+  },
+  {
+    "name": "Flask",
+    "image": "../img/svg/flask.svg"
+  },
+  {
+    "name": "Flutter",
+    "image": "../img/svg/flutter.svg"
+  },
+  {
+    "name": "Ghidra",
+    "image": "../img/svg/ghidra.svg"
+  },
+  {
+    "name": "GIMP",
+    "image": "../img/svg/gimp.svg"
+  },
+  {
+    "name": "Git",
+    "image": "../img/svg/git.svg"
+  },
+  {
+    "name": "Go",
+    "image": "../img/svg/go.svg"
+  },
+  {
+    "name": "Godot",
+    "image": "../img/svg/godot.svg"
+  },
+  {
+    "name": "Gradle",
+    "image": "../img/svg/gradle.svg"
+  },
+  {
+    "name": "GraphQL",
+    "image": "../img/svg/graphQL.svg"
+  },
+  {
+    "name": "Hadoop",
+    "image": "../img/svg/hadoop.svg"
+  },
+  {
+    "name": "HTML",
+    "image": "../img/svg/html.svg"
+  },
+  {
+    "name": "Inkscape",
+    "image": "../img/svg/Inkscape.svg"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "image": "../img/svg/intellij-idea.svg"
+  },
+  {
+    "name": "Java",
+    "image": "../img/svg/java.svg"
+  },
+  {
+    "name": "JavaScript",
+    "image": "../img/svg/javaScript.svg"
+  },
+  {
+    "name": "Jira",
+    "image": "../img/svg/Jira.svg"
+  },
+  {
+    "name": "Kafka",
+    "image": "../img/svg/kafka.svg"
+  },
+  {
+    "name": "Kdenlive",
+    "image": "../img/svg/kdenlive.svg"
+  },
+  {
+    "name": "Kotlin",
+    "image": "../img/svg/kotlin.svg"
+  },
+  {
+    "name": "Krita",
+    "image": "../img/svg/krita.svg"
+  },
+  {
+    "name": "Kubernetes",
+    "image": "../img/svg/kubernetes.svg"
+  },
+  {
+    "name": "LaTeX",
+    "image": "../img/svg/latex.svg"
+  },
+  {
+    "name": "Maven",
+    "image": "../img/svg/maven.svg"
+  },
+  {
+    "name": "MongoDB",
+    "image": "../img/svg/mongodB.svg"
+  },
+  {
+    "name": "MySQL",
+    "image": "../img/svg/mySQL.svg"
+  },
+  {
+    "name": "Nano",
+    "image": "../img/svg/nano.svg"
+  },
+  {
+    "name": "Neovim",
+    "image": "../img/svg/neovim.svg"
+  },
+  {
+    "name": "Node.js",
+    "image": "../img/svg/nodeJs.svg"
+  },
+  {
+    "name": "Oracle DB",
+    "image": "../img/svg/oracle-dB.svg"
+  },
+  {
+    "name": "PHP",
+    "image": "../img/svg/php.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "image": "../img/svg/postgreSQL.svg"
+  },
+  {
+    "name": "Postman",
+    "image": "../img/svg/postman.svg"
+  },
+  {
+    "name": "Python",
+    "image": "../img/svg/python.svg"
+  },
+  {
+    "name": "PyTorch",
+    "image": "../img/svg/pytTorch.svg"
+  },
+  {
+    "name": "Qt",
+    "image": "../img/svg/qT.svg"
+  },
+  {
+    "name": "React",
+    "image": "../img/svg/react.svg"
+  },
+  {
+    "name": "Redis",
+    "image": "../img/svg/redis.svg"
+  },
+  {
+    "name": "Roblox Studio",
+    "image": "../img/svg/roblox-studio.svg"
+  },
+  {
+    "name": "Rust",
+    "image": "../img/svg/rust.svg"
+  },
+  {
+    "name": "SDL",
+    "image": "../img/svg/sdl.svg"
+  },
+  {
+    "name": "Spark",
+    "image": "../img/svg/spark.svg"
+  },
+  {
+    "name": "SQLite",
+    "image": "../img/svg/sQLite.svg"
+  },
+  {
+    "name": "Supabase",
+    "image": "../img/svg/supabase.svg"
+  },
+  {
+    "name": "Tauri",
+    "image": "../img/svg/tauri.svg"
+  },
+  {
+    "name": "TypeScript",
+    "image": "../img/svg/typeScript.svg"
+  },
+  {
+    "name": "UML",
+    "image": "../img/svg/uml.svg"
+  },
+  {
+    "name": "Unity",
+    "image": "../img/svg/unity.svg"
+  },
+  {
+    "name": "Vercel",
+    "image": "../img/svg/vercel.svg"
+  },
+  {
+    "name": "VSCodium",
+    "image": "../img/svg/VSCodium.svg"
+  },
+  {
+    "name": "Vue",
+    "image": "../img/svg/vue.svg"
+  },
+  {
+    "name": "Windows",
+    "image": "../img/svg/windows.svg"
+  }
+]

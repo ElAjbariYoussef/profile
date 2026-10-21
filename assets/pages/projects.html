@@ -1,1 +1,102 @@
-for later
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projects</title>
+        <link href="../styles/projects.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+            <symbol id="i-repo" viewBox="0 0 16 16"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></symbol>
+            <symbol id="i-star" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></symbol>
+            <symbol id="i-fork" viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/></symbol>
+        </svg>
+
+        <div class="screen">
+            <header class="repo-toolbar">
+                <a class="back-btn" href="../../index.html">Go Back</a>
+
+                <input type="search" id="repo-search" placeholder="Search projects..." aria-label="Search projects" autocomplete="off">
+
+                <button type="button" id="filter-toggle" class="filter-btn" aria-expanded="true" aria-controls="filter-panel">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M.75 3h14.5a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1 0-1.5ZM3 7.75A.75.75 0 0 1 3.75 7h8.5a.75.75 0 0 1 0 1.5h-8.5A.75.75 0 0 1 3 7.75Zm3 4a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"/></svg>
+                    Filter <span id="filter-badge" class="filter-badge" hidden>0</span>
+                </button>
+            </header>
+
+            <div class="repo-layout">
+                <aside class="repo-filters" id="filter-panel" aria-label="Project filters">
+                    <div class="filter-section">
+                        <span class="filter-label">Visibility</span>
+                        <div class="filter-group" id="visibility-filter" role="group" aria-label="Filter by visibility">
+                            <button type="button" class="chip active" data-value="all">All</button>
+                            <button type="button" class="chip" data-value="public">Public</button>
+                            <button type="button" class="chip" data-value="private">Private</button>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <span class="filter-label">Language</span>
+                        <div class="filter-group" id="lang-filter" role="group" aria-label="Filter by language"></div>
+                    </div>
+                    <button type="button" id="filter-clear" class="chip filter-clear">Clear filters</button>
+                </aside>
+
+                <main class="repo-results">
+                    <p id="repo-empty" class="empty" hidden>No projects match your filters.</p>
+
+                    <div class="repo-grid" id="repo-grid"></div>
+                </main>
+            </div>
+        </div>
+
+        <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+            <div class="modal-inner">
+                <button type="button" class="modal-close" id="modal-close" aria-label="Close project details">&times;</button>
+
+                <div class="modal-content">
+                    <div class="modal-head">
+                        <img class="modal-avatar" id="modal-avatar" alt="El Ajbari Youssef" width="64" height="64">
+                        <div class="modal-heading">
+                            <p class="modal-owner" id="modal-owner"></p>
+                            <div class="modal-title-row">
+                                <h2 class="modal-title" id="modal-title"></h2>
+                                <span class="repo-badge contributor" id="modal-contributor" hidden>Contributed</span>
+                                <span class="repo-badge" id="modal-badge"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="modal-description" id="modal-description"></p>
+                    <ul class="repo-meta modal-meta" id="modal-meta"></ul>
+
+                    <div class="modal-section" id="modal-details-section" hidden>
+                        <h3>About</h3>
+                        <p id="modal-details"></p>
+                        <ul class="modal-highlights" id="modal-highlights"></ul>
+                    </div>
+
+                    <div class="modal-section" id="modal-topics-section" hidden>
+                        <h3>Topics</h3>
+                        <div class="topic-list" id="modal-topics"></div>
+                    </div>
+
+                    <div class="modal-section" id="modal-gallery-section" hidden>
+                        <h3>Screenshots</h3>
+                        <div class="modal-gallery" id="modal-gallery"></div>
+                    </div>
+
+                    <div class="modal-section" id="modal-links-section" hidden>
+                        <h3>Links</h3>
+                        <div class="modal-links" id="modal-links"></div>
+                    </div>
+
+                    <p class="modal-private" id="modal-private" hidden>Private project &mdash; source is not publicly available.</p>
+                </div>
+            </div>
+        </dialog>
+
+        <script src="../js/projects.js"></script>
+    </body>
+</html>

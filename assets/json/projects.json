@@ -1,0 +1,356 @@
+{
+  "profileAvatar": "https://avatars.githubusercontent.com/u/181563201?v=4",
+  "projects": [
+    {
+      "name": "ASCII-Paint",
+      "description": "A desktop ASCII art and animation editor.",
+      "url": "https://github.com/DustDevStudio/ASCII-Paint",
+      "visibility": "public",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 0,
+      "forks": 0,
+      "details": "A desktop editor for creating ASCII art and frame-based animations. It is written in Rust and will move to the SimpleUI front end after the first SimpleUI release.",
+      "highlights": [
+        "Character-based drawing and animation tools",
+        "Native desktop application written in Rust",
+        "Prebuilt executables are published on GitHub Releases"
+      ],
+      "links": [
+        {
+          "label": "Latest release",
+          "url": "https://github.com/DustDevStudio/ASCII-Paint/releases/latest"
+        }
+      ]
+    },
+    {
+      "name": "SpaceGlider",
+      "description": "SpaceGlider is a small word-based file compressor written in Java",
+      "url": "https://github.com/DustDevStudio/SpaceGlider",
+      "visibility": "public",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 0,
+      "forks": 0,
+      "details": "A lossless, word-based file compressor written in Java. It splits text into words and whitespace, gives frequent tokens shorter byte codes, and writes the result to a .space file. A 1 GB enwik9 test corpus compressed to 567 MB.",
+      "highlights": [
+        "Lossless word-based compression",
+        "Variable-length byte codes based on token frequency",
+        "Command-line compression and extraction"
+      ],
+      "links": [
+        {
+          "label": "Latest release",
+          "url": "https://github.com/DustDevStudio/SpaceGlider/releases/latest"
+        },
+        {
+          "label": "enwik9 test corpus",
+          "url": "https://mattmahoney.net/dc/textdata.html"
+        }
+      ]
+    },
+    {
+      "name": "SimpleUI",
+      "description": "A lightweight, self-contained declarative desktop UI engine, still in developpement.",
+      "url": "https://github.com/ElAjbariYoussef/SimpleUI",
+      "visibility": "public",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": 0,
+      "forks": 0,
+      "details": "A lightweight, self-contained declarative UI engine for desktop applications, written in C++. The project is still in early development.",
+      "highlights": [
+        "Declarative desktop UI",
+        "Self-contained C++ implementation"
+      ]
+    },
+    {
+      "name": "ltk-manager",
+      "description": "Mod manager and Modding IDE for League of Legends.",
+      "url": "https://github.com/LeagueToolkit/ltk-manager",
+      "visibility": "public",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 258,
+      "forks": 49,
+      "contributed": true,
+      "details": "The League Toolkit mod manager and modding IDE for League of Legends. It installs custom skins, HUDs, maps, and audio; manages mod libraries and profiles; checks mod health after game patches; and includes a Workshop for browsing game files and packaging mods. This is an open-source project I contributed to.",
+      "highlights": [
+        "Contributed to the LeagueToolkit ltk-manager project",
+        "Tauri desktop app with a Rust backend and TypeScript UI",
+        "Mod library, profiles, mod health checks, and a built-in Workshop"
+      ],
+      "links": [
+        {
+          "label": "Latest release",
+          "url": "https://github.com/LeagueToolkit/ltk-manager/releases/latest"
+        },
+        {
+          "label": "Wiki",
+          "url": "https://wiki.leaguetoolkit.dev/"
+        },
+        {
+          "label": "Contributing guide",
+          "url": "https://github.com/LeagueToolkit/ltk-manager/blob/main/CONTRIBUTING.md"
+        }
+      ]
+    },
+    {
+      "name": "Playin",
+      "description": "Native Android app that enables Youtube video download",
+      "url": "",
+      "visibility": "private",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": 0,
+      "forks": 0,
+      "details": "Playin is a Kotlin application for Android that downloads YouTube videos directly on the device."
+    },
+    {
+      "name": "RustySteamless",
+      "description": "Steamless DRM remover rewritten to Rust",
+      "url": "https://github.com/notwinterdust/RustySteamless",
+      "visibility": "public",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 2,
+      "forks": 1,
+      "details": "A cross-platform rewrite of Steamless in Rust. It removes SteamStub DRM from executable files so they can be analyzed or modified, and ships as a Tauri desktop app plus a CLI for automated use. The unpacking logic is ported from the original Steamless project by atom0s.",
+      "highlights": [
+        "Tauri desktop app and command-line interface",
+        "Windows, macOS, and Linux builds",
+        "SteamStub DRM removal for analysis and modification"
+      ],
+      "links": [
+        {
+          "label": "Latest release",
+          "url": "https://github.com/notwinterdust/RustySteamless/releases/latest"
+        },
+        {
+          "label": "Original Steamless",
+          "url": "https://github.com/atom0s/Steamless"
+        },
+        {
+          "label": "Report an issue",
+          "url": "https://github.com/notwinterdust/RustySteamless/issues"
+        }
+      ]
+    },
+    {
+      "name": "DofusMulti",
+      "description": "Reconstruction of a reverse engineered multi proxy bot",
+      "url": "",
+      "visibility": "private",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 0,
+      "forks": 0,
+      "details": "DofusMulti is a Rust project that reconstructs a reverse-engineered multi-client proxy bot for Dofus."
+    },
+    {
+      "name": "ltk-bot",
+      "description": "LTK Discord server management bot",
+      "url": "https://github.com/notwinterdust/ltk-bot",
+      "visibility": "public",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 0,
+      "forks": 0,
+      "details": "ltk-bot is a Python Discord bot used to manage the League Toolkit server."
+    },
+    {
+      "name": "IpLock",
+      "description": "A server-side Minecraft mod that binds usernames to IP addresses to prevent account takeovers.",
+      "url": "",
+      "visibility": "private",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 0,
+      "forks": 0,
+      "details": "IpLock prevents account takeovers on offline-mode Minecraft servers by permanently binding each username to the IP address it first joined from. A matching IP joins normally; a different IP is rejected and banned. Bindings and bans are stored in JSON files, and operators can list bindings, review bans, unban IPs, and reset a username's binding.",
+      "highlights": [
+        "Permanently binds each username to its first IP address",
+        "Rejects and bans connections from mismatched IPs",
+        "Operator commands for bindings, bans, unbanning, and resets",
+        "Supports Fabric and Spigot servers"
+      ],
+      "links": [
+        {
+          "label": "Modrinth",
+          "url": "https://modrinth.com/plugin/usernameiplock"
+        }
+      ]
+    },
+    {
+      "name": "TeleportGate",
+      "description": "A Minecraft plugin that adds configurable, code-based teleport gates.",
+      "url": "",
+      "visibility": "private",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 0,
+      "forks": 0,
+      "details": "TeleportGate is a Spigot 1.21 plugin that adds craftable teleport gates to a Minecraft server. Each gate receives a unique four-digit code, and players can right-click a gate and enter another gate's code to travel there instantly. Gate codes float above each gate, and the crafting recipe is configurable in config.json.",
+      "highlights": [
+        "Gate-to-gate travel using four-digit codes",
+        "Craftable gates with a configurable recipe",
+        "Floating code display above every gate",
+        "Spigot 1.21 support"
+      ],
+      "links": [
+        {
+          "label": "Modrinth",
+          "url": "https://modrinth.com/plugin/teleport-gate"
+        }
+      ]
+    },
+    {
+      "name": "veryHotBar",
+      "description": "A lightweight Fabric mod for managing inventory rows and hotbar slots with the arrow keys.",
+      "url": "",
+      "visibility": "private",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 0,
+      "forks": 0,
+      "details": "veryHotbar is a lightweight Fabric quality-of-life mod that makes inventory management faster without opening menus. Up and Down arrows swap the hotbar with inventory rows, while Left and Right arrows cycle through hotbar slots, giving players quicker access to tools, weapons, and blocks during combat or building.",
+      "highlights": [
+        "Up/Down arrows swap the hotbar with inventory rows",
+        "Left/Right arrows cycle hotbar slots instantly",
+        "No inventory screens required",
+        "Lightweight, vanilla-style controls"
+      ],
+      "links": [
+        {
+          "label": "Modrinth",
+          "url": "https://modrinth.com/mod/veryhotbar"
+        }
+      ]
+    },
+    {
+      "name": "ConvertAll",
+      "description": "Desktop software that enables multi extension converting.",
+      "url": "",
+      "visibility": "private",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 0,
+      "forks": 0,
+      "details": "ConvertAll is a Rust desktop utility for converting files between multiple extensions."
+    },
+    {
+      "name": "OtpServer",
+      "description": "SelfHosted solution that syncs totp across multiple devices.",
+      "url": "https://github.com/notwinterdust/otp-server",
+      "visibility": "public",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 0,
+      "forks": 0,
+      "details": "A self-hosted sync server for Offline Authenticator. It keeps TOTP accounts synchronized across devices while storing all data on your own server. The service uses SQLite persistence, exposes an HTTP API, and runs through Docker Compose.",
+      "highlights": [
+        "Self-hosted TOTP synchronization",
+        "SQLite storage with Docker Compose deployment",
+        "JWT-protected account sync API"
+      ],
+      "links": [
+        {
+          "label": "Setup guide",
+          "url": "https://github.com/notwinterdust/otp-server#quick-start"
+        },
+        {
+          "label": "API reference",
+          "url": "https://github.com/notwinterdust/otp-server#api-reference"
+        }
+      ]
+    },
+    {
+      "name": "CampusEvent",
+      "description": "CampusEvents is a university event app for students and admins to browse, favorite, register for, and manage campus events, with AI-powered event search and recommendations.",
+      "url": "",
+      "visibility": "private",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 0,
+      "forks": 0,
+      "details": "CampusEvents is a TypeScript university event app with separate student and admin flows. Students browse, favorite, and register for events, while admins create and manage listings; AI-assisted search and recommendations help surface relevant events."
+    },
+    {
+      "name": "BoolEfficient",
+      "description": "Bit-Packed Boolean Storage System that is more memory efficient than bool. Instead of using 1 byte per bool, this solution uses 1 byte per 8 bool values.",
+      "url": "",
+      "visibility": "private",
+      "language": "C",
+      "languageColor": "#555555",
+      "stars": 0,
+      "forks": 0,
+      "details": "A bit-packed boolean storage system implemented in C. It packs eight boolean values into one byte instead of using a byte per bool, reducing memory usage for large collections of flags."
+    },
+    {
+      "name": "RadminVPN-Linux",
+      "description": "RadminVPN reverse engineered to port the solution to Linux.",
+      "url": "",
+      "visibility": "private",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 0,
+      "forks": 0,
+      "details": "A reverse-engineering project that documents and reimplements Radmin VPN behavior to provide a Linux-compatible client, written in Python."
+    },
+    {
+      "name": "TheWolf",
+      "description": "JustLikeAnimals Discord server management bot.",
+      "url": "",
+      "visibility": "private",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 0,
+      "forks": 0,
+      "details": "A Python Discord bot that handles moderation and community management tasks for the JustLikeAnimals server."
+    },
+    {
+      "name": "SmartBudget",
+      "description": "Kotlin-based budgeting app for managing college-related finances and expenses.",
+      "url": "",
+      "visibility": "private",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "stars": 0,
+      "forks": 0,
+      "details": "A Kotlin app that helps students plan monthly budgets, record expenses, and keep track of college-related spending."
+    },
+    {
+      "name": "SmartIntell",
+      "description": "Smart eCommerce Intelligence is a multi agentic A2A pipeline that scraps and organize ecommerce websites.",
+      "url": "",
+      "visibility": "private",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 0,
+      "forks": 0,
+      "details": "Smart eCommerce Intelligence is a Python multi-agent A2A pipeline that splits e-commerce scraping, extraction, and organization across cooperating agents."
+    },
+    {
+      "name": "StoneRose",
+      "description": "A small scripts to go around boring and non efficient Rosetta Stone learning platform",
+      "url": "",
+      "visibility": "private",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 0,
+      "forks": 0,
+      "details": "A collection of small scripts that work around the Rosetta Stone learning platform, targeting repetitive lessons and platform interactions to reduce manual effort."
+    },
+    {
+      "name": "ProjectManager",
+      "description": "PHP-based project management application for planning, tracking, and organizing project workflows and tasks.",
+      "url": "",
+      "visibility": "private",
+      "language": "PHP",
+      "languageColor": "#4F5D95",
+      "stars": 0,
+      "forks": 0,
+      "details": "A PHP application that centralizes project planning, task tracking, and workflow organization for teams."
+    }
+  ]
+}
