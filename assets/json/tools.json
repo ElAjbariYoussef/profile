@@ -1,310 +1,387 @@
 [
   {
     "name": ".NET",
-    "image": "../img/svg/dotNet.svg"
+    "image": "../img/svg/dotNet.svg",
+    "description": "A cross-platform framework and runtime for building applications with C#, F#, and other .NET languages."
   },
   {
     "name": "Airflow",
-    "image": "../img/svg/airflow.svg"
+    "image": "../img/svg/airflow.svg",
+    "description": "Apache Airflow is a platform for authoring, scheduling, and monitoring data pipelines as code."
   },
   {
     "name": "Android",
-    "image": "../img/svg/android.svg"
+    "image": "../img/svg/android.svg",
+    "description": "A mobile operating system and development platform for building apps on phones, tablets, and other devices."
   },
   {
     "name": "Angular",
-    "image": "../img/svg/angular.svg"
+    "image": "../img/svg/angular.svg",
+    "description": "A TypeScript-based front-end framework for building structured, component-driven web applications."
   },
   {
     "name": "Apache",
-    "image": "../img/svg/apache.svg"
+    "image": "../img/svg/apache.svg",
+    "description": "The Apache HTTP Server is a widely used open-source web server for serving websites and web applications."
   },
   {
     "name": "Arch",
-    "image": "../img/svg/arch.svg"
+    "image": "../img/svg/arch.svg",
+    "description": "A lightweight, rolling-release Linux distribution for users who want control over their system."
   },
   {
     "name": "Arduino",
-    "image": "../img/svg/arduino.svg"
+    "image": "../img/svg/arduino.svg",
+    "description": "An open-source electronics platform for prototyping with microcontrollers and interactive hardware."
   },
   {
     "name": "AWS",
-    "image": "../img/svg/aWS.svg"
+    "image": "../img/svg/aWS.svg",
+    "description": "Amazon Web Services is a cloud platform for compute, storage, databases, networking, and deployment."
   },
   {
     "name": "Bash",
-    "image": "../img/svg/bash.svg"
+    "image": "../img/svg/bash.svg",
+    "description": "A Unix shell and command language used for scripting, automation, and interacting with Linux systems."
   },
   {
     "name": "Blender",
-    "image": "../img/svg/blender.svg"
+    "image": "../img/svg/blender.svg",
+    "description": "An open-source 3D creation suite for modeling, animation, rendering, visual effects, and video editing."
   },
   {
     "name": "Burp Suite",
-    "image": "../img/svg/burpSuite.svg"
+    "image": "../img/svg/burpSuite.svg",
+    "description": "A web security testing toolkit for intercepting traffic, finding vulnerabilities, and assessing web applications."
   },
   {
     "name": "C#",
-    "image": "../img/svg/c#.svg"
+    "image": "../img/svg/c#.svg",
+    "description": "A modern, statically typed language from Microsoft used for .NET applications, games, and services."
   },
   {
     "name": "Cassandra",
-    "image": "../img/svg/cassandra.svg"
+    "image": "../img/svg/cassandra.svg",
+    "description": "A distributed NoSQL database designed for high availability and large-scale workloads across multiple nodes."
   },
   {
     "name": "Cloudflare",
-    "image": "../img/svg/cloudflare.svg"
+    "image": "../img/svg/cloudflare.svg",
+    "description": "A cloud networking and security platform providing CDN, DNS, DDoS protection, and edge services."
   },
   {
     "name": "CMake",
-    "image": "../img/svg/cMake.svg"
+    "image": "../img/svg/cMake.svg",
+    "description": "A cross-platform build system generator used to configure and build C and C++ projects."
   },
   {
     "name": "Dart",
-    "image": "../img/svg/dart.svg"
+    "image": "../img/svg/dart.svg",
+    "description": "A programming language from Google used to build mobile, desktop, and web apps, especially with Flutter."
   },
   {
     "name": "DBeaver",
-    "image": "../img/svg/dBeaver.svg"
+    "image": "../img/svg/dBeaver.svg",
+    "description": "A universal database client for querying, managing, and browsing SQL and NoSQL databases."
   },
   {
     "name": "Debian",
-    "image": "../img/svg/debian.svg"
+    "image": "../img/svg/debian.svg",
+    "description": "A stable, community-driven Linux distribution and the foundation for many other distributions."
   },
   {
     "name": "Discord",
-    "image": "../img/svg/discord.svg"
+    "image": "../img/svg/discord.svg",
+    "description": "A communication platform for voice, video, and text communities, with APIs and bots for automation."
   },
   {
     "name": "Django",
-    "image": "../img/svg/django.svg"
+    "image": "../img/svg/django.svg",
+    "description": "A high-level Python web framework for building secure, database-backed web applications quickly."
   },
   {
     "name": "Docker",
-    "image": "../img/svg/docker.svg"
+    "image": "../img/svg/docker.svg",
+    "description": "A containerization platform for packaging applications and their dependencies into portable images."
   },
   {
     "name": "Electron",
-    "image": "../img/svg/electron.svg"
+    "image": "../img/svg/electron.svg",
+    "description": "A framework for building cross-platform desktop apps with web technologies like HTML, CSS, and JavaScript."
   },
   {
     "name": "Express",
-    "image": "../img/svg/express.svg"
+    "image": "../img/svg/express.svg",
+    "description": "A minimal Node.js web framework for building APIs and web servers with routing and middleware."
   },
   {
     "name": "Fedora",
-    "image": "../img/svg/fedora.svg"
+    "image": "../img/svg/fedora.svg",
+    "description": "A fast-moving Linux distribution sponsored by Red Hat and focused on open-source innovation."
   },
   {
     "name": "Figma",
-    "image": "../img/svg/figma.svg"
+    "image": "../img/svg/figma.svg",
+    "description": "A collaborative interface design tool for wireframing, prototyping, and building design systems."
   },
   {
     "name": "Firebase",
-    "image": "../img/svg/firebase.svg"
+    "image": "../img/svg/firebase.svg",
+    "description": "Google's app development platform with hosted databases, authentication, storage, hosting, and messaging."
   },
   {
     "name": "Flask",
-    "image": "../img/svg/flask.svg"
+    "image": "../img/svg/flask.svg",
+    "description": "A lightweight Python web framework for building small services, APIs, and web applications."
   },
   {
     "name": "Flutter",
-    "image": "../img/svg/flutter.svg"
+    "image": "../img/svg/flutter.svg",
+    "description": "Google's UI toolkit for building natively compiled mobile, desktop, and web apps from one codebase."
   },
   {
     "name": "Ghidra",
-    "image": "../img/svg/ghidra.svg"
+    "image": "../img/svg/ghidra.svg",
+    "description": "A reverse-engineering suite from the NSA for disassembling, decompiling, and analyzing binaries."
   },
   {
     "name": "GIMP",
-    "image": "../img/svg/gimp.svg"
+    "image": "../img/svg/gimp.svg",
+    "description": "A free and open-source image editor for photo retouching, compositing, and graphic design."
   },
   {
     "name": "Git",
-    "image": "../img/svg/git.svg"
+    "image": "../img/svg/git.svg",
+    "description": "A distributed version control system for tracking source code changes and collaborating on projects."
   },
   {
     "name": "Go",
-    "image": "../img/svg/go.svg"
+    "image": "../img/svg/go.svg",
+    "description": "A compiled programming language from Google focused on simplicity, concurrency, and efficient services."
   },
   {
     "name": "Godot",
-    "image": "../img/svg/godot.svg"
+    "image": "../img/svg/godot.svg",
+    "description": "An open-source game engine for building 2D and 3D games with a flexible scene and scripting system."
   },
   {
     "name": "Gradle",
-    "image": "../img/svg/gradle.svg"
+    "image": "../img/svg/gradle.svg",
+    "description": "A build automation tool for JVM projects that manages dependencies, compilation, testing, and packaging."
   },
   {
     "name": "GraphQL",
-    "image": "../img/svg/graphQL.svg"
+    "image": "../img/svg/graphQL.svg",
+    "description": "A query language and runtime for APIs that lets clients request exactly the data they need."
   },
   {
     "name": "Hadoop",
-    "image": "../img/svg/hadoop.svg"
+    "image": "../img/svg/hadoop.svg",
+    "description": "An open-source framework for distributed storage and batch processing of very large data sets."
   },
   {
     "name": "HTML",
-    "image": "../img/svg/html.svg"
+    "image": "../img/svg/html.svg",
+    "description": "The markup language used to structure content on the web, including text, media, and interactive elements."
   },
   {
     "name": "Inkscape",
-    "image": "../img/svg/Inkscape.svg"
+    "image": "../img/svg/Inkscape.svg",
+    "description": "An open-source vector graphics editor for creating and editing SVG illustrations and designs."
   },
   {
     "name": "IntelliJ IDEA",
-    "image": "../img/svg/intellij-idea.svg"
+    "image": "../img/svg/intellij-idea.svg",
+    "description": "JetBrains' integrated development environment for Java, Kotlin, and JVM-based development."
   },
   {
     "name": "Java",
-    "image": "../img/svg/java.svg"
+    "image": "../img/svg/java.svg",
+    "description": "A widely used object-oriented programming language for enterprise applications, Android apps, and services."
   },
   {
     "name": "JavaScript",
-    "image": "../img/svg/javaScript.svg"
+    "image": "../img/svg/javaScript.svg",
+    "description": "The programming language of the web, used for interactive pages, servers, tooling, and cross-platform apps."
   },
   {
     "name": "Jira",
-    "image": "../img/svg/Jira.svg"
+    "image": "../img/svg/Jira.svg",
+    "description": "Atlassian's issue and project tracking tool for planning work, managing sprints, and tracking bugs."
   },
   {
     "name": "Kafka",
-    "image": "../img/svg/kafka.svg"
+    "image": "../img/svg/kafka.svg",
+    "description": "A distributed event-streaming platform for publishing, storing, and processing real-time data streams."
   },
   {
     "name": "Kdenlive",
-    "image": "../img/svg/kdenlive.svg"
+    "image": "../img/svg/kdenlive.svg",
+    "description": "An open-source non-linear video editor for cutting, compositing, and exporting video projects."
   },
   {
     "name": "Kotlin",
-    "image": "../img/svg/kotlin.svg"
+    "image": "../img/svg/kotlin.svg",
+    "description": "A concise, statically typed JVM language widely used for Android and modern backend development."
   },
   {
     "name": "Krita",
-    "image": "../img/svg/krita.svg"
+    "image": "../img/svg/krita.svg",
+    "description": "An open-source digital painting application for illustration, concept art, and 2D animation."
   },
   {
     "name": "Kubernetes",
-    "image": "../img/svg/kubernetes.svg"
+    "image": "../img/svg/kubernetes.svg",
+    "description": "A container orchestration platform for deploying, scaling, and managing applications across clusters."
   },
   {
     "name": "LaTeX",
-    "image": "../img/svg/latex.svg"
+    "image": "../img/svg/latex.svg",
+    "description": "A typesetting system for producing professional documents, especially technical and scientific papers."
   },
   {
     "name": "Maven",
-    "image": "../img/svg/maven.svg"
+    "image": "../img/svg/maven.svg",
+    "description": "A Java project management and build tool with dependency management and a standard build lifecycle."
   },
   {
     "name": "MongoDB",
-    "image": "../img/svg/mongodB.svg"
+    "image": "../img/svg/mongodB.svg",
+    "description": "A document-oriented NoSQL database that stores flexible JSON-like records."
   },
   {
     "name": "MySQL",
-    "image": "../img/svg/mySQL.svg"
+    "image": "../img/svg/mySQL.svg",
+    "description": "An open-source relational database management system widely used for web applications."
   },
   {
     "name": "Nano",
-    "image": "../img/svg/nano.svg"
+    "image": "../img/svg/nano.svg",
+    "description": "A simple, terminal-based text editor for quick edits directly from the command line."
   },
   {
     "name": "Neovim",
-    "image": "../img/svg/neovim.svg"
+    "image": "../img/svg/neovim.svg",
+    "description": "An extensible, keyboard-driven terminal text editor built as a modern refactor of Vim."
   },
   {
     "name": "Node.js",
-    "image": "../img/svg/nodeJs.svg"
+    "image": "../img/svg/nodeJs.svg",
+    "description": "A JavaScript runtime for building server-side applications, APIs, tooling, and network services."
   },
   {
     "name": "Oracle DB",
-    "image": "../img/svg/oracle-dB.svg"
+    "image": "../img/svg/oracle-dB.svg",
+    "description": "Oracle Database is an enterprise relational database system for transactional and analytical workloads."
   },
   {
     "name": "PHP",
-    "image": "../img/svg/php.svg"
+    "image": "../img/svg/php.svg",
+    "description": "A server-side scripting language widely used for building dynamic websites and web applications."
   },
   {
     "name": "PostgreSQL",
-    "image": "../img/svg/postgreSQL.svg"
+    "image": "../img/svg/postgreSQL.svg",
+    "description": "A powerful open-source relational database with strong SQL compliance, extensibility, and reliability."
   },
   {
     "name": "Postman",
-    "image": "../img/svg/postman.svg"
+    "image": "../img/svg/postman.svg",
+    "description": "An API platform for building, testing, documenting, and collaborating on HTTP APIs."
   },
   {
     "name": "Python",
-    "image": "../img/svg/python.svg"
+    "image": "../img/svg/python.svg",
+    "description": "A readable, general-purpose programming language used for automation, data work, web services, and more."
   },
   {
     "name": "PyTorch",
-    "image": "../img/svg/pytTorch.svg"
+    "image": "../img/svg/pytTorch.svg",
+    "description": "An open-source machine learning framework for building and training neural networks with Python."
   },
   {
     "name": "Qt",
-    "image": "../img/svg/qT.svg"
+    "image": "../img/svg/qT.svg",
+    "description": "A cross-platform application framework for building desktop, embedded, and mobile interfaces with C++ or Python."
   },
   {
     "name": "React",
-    "image": "../img/svg/react.svg"
+    "image": "../img/svg/react.svg",
+    "description": "A JavaScript library for building interactive user interfaces from reusable components."
   },
   {
     "name": "Redis",
-    "image": "../img/svg/redis.svg"
+    "image": "../img/svg/redis.svg",
+    "description": "An in-memory data store used for caching, queues, sessions, and real-time application features."
   },
   {
     "name": "Roblox Studio",
-    "image": "../img/svg/roblox-studio.svg"
+    "image": "../img/svg/roblox-studio.svg",
+    "description": "Roblox's development environment for building games and experiences with Lua scripting."
   },
   {
     "name": "Rust",
-    "image": "../img/svg/rust.svg"
+    "image": "../img/svg/rust.svg",
+    "description": "A systems programming language focused on memory safety, performance, and reliable concurrency."
   },
   {
     "name": "SDL",
-    "image": "../img/svg/sdl.svg"
+    "image": "../img/svg/sdl.svg",
+    "description": "A cross-platform low-level library for handling windows, input, audio, and graphics in games and media apps."
   },
   {
     "name": "Spark",
-    "image": "../img/svg/spark.svg"
+    "image": "../img/svg/spark.svg",
+    "description": "Apache Spark is a distributed analytics engine for large-scale batch and stream data processing."
   },
   {
     "name": "SQLite",
-    "image": "../img/svg/sQLite.svg"
+    "image": "../img/svg/sQLite.svg",
+    "description": "A lightweight embedded relational database used in mobile apps, desktop software, and small services."
   },
   {
     "name": "Supabase",
-    "image": "../img/svg/supabase.svg"
+    "image": "../img/svg/supabase.svg",
+    "description": "An open-source Firebase alternative with Postgres, authentication, storage, and real-time APIs."
   },
   {
     "name": "Tauri",
-    "image": "../img/svg/tauri.svg"
+    "image": "../img/svg/tauri.svg",
+    "description": "A framework for building small, fast desktop apps using web frontends and a Rust backend."
   },
   {
     "name": "TypeScript",
-    "image": "../img/svg/typeScript.svg"
+    "image": "../img/svg/typeScript.svg",
+    "description": "A typed superset of JavaScript that adds static checking and tooling for large web codebases."
   },
   {
     "name": "UML",
-    "image": "../img/svg/uml.svg"
+    "image": "../img/svg/uml.svg",
+    "description": "A standard visual modeling language for describing software structure, behavior, and system design."
   },
   {
     "name": "Unity",
-    "image": "../img/svg/unity.svg"
+    "image": "../img/svg/unity.svg",
+    "description": "A real-time game engine and development platform for 2D, 3D, AR, and VR experiences."
   },
   {
     "name": "Vercel",
-    "image": "../img/svg/vercel.svg"
+    "image": "../img/svg/vercel.svg",
+    "description": "A cloud platform for deploying and hosting front-end apps, serverless functions, and web services."
   },
   {
     "name": "VSCodium",
-    "image": "../img/svg/VSCodium.svg"
+    "image": "../img/svg/VSCodium.svg",
+    "description": "A community-built, telemetry-free distribution of the VS Code editor."
   },
   {
     "name": "Vue",
-    "image": "../img/svg/vue.svg"
+    "image": "../img/svg/vue.svg",
+    "description": "A progressive JavaScript framework for building user interfaces and single-page applications."
   },
   {
     "name": "Windows",
-    "image": "../img/svg/windows.svg"
+    "image": "../img/svg/windows.svg",
+    "description": "Microsoft's desktop operating system and development environment for Windows applications."
   }
 ]

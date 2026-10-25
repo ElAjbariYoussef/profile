@@ -1,18 +1,43 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EL AJBARI Y.</title>
-    <link rel="stylesheet" href="../styles/tools.css">
-</head>
-<body>
-    <div class="screen">
-        <div class="search">
-            <button class="search-btn" onclick="window.location.href='../../index.html' ">Back</button>
-            <input id="search" type="search" placeholder="Search tools" aria-label="Search tools" autocomplete="off">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tools</title>
+        <link href="../styles/tools.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="screen">
+            <header class="repo-toolbar">
+                <a class="back-btn" href="../../index.html">Go Back</a>
+                <input type="search" id="search" placeholder="Search tools..." aria-label="Search tools" autocomplete="off">
+            </header>
+
+            <main class="tools-results">
+                <p class="empty" id="empty" hidden>No tools match your search.</p>
+                <div class="grid" id="cards"></div>
+            </main>
         </div>
-        <div class="grid" id="cards"></div>
-        <p class="empty" id="empty" hidden>No tools match your search.</p>
-    </div>
-    <script src="../js/tools.js"></script>
-</body>
+
+        <dialog class="tool-modal" id="tool-modal" aria-labelledby="tool-modal-title">
+            <div class="tool-modal-inner">
+                <button type="button" class="tool-modal-close" id="tool-modal-close" aria-label="Close tool details">&times;</button>
+
+                <div class="tool-modal-head">
+                    <span class="tool-modal-icon">
+                        <img id="tool-modal-image" alt="" width="64" height="64">
+                    </span>
+                    <div class="tool-modal-heading">
+                        <p class="tool-modal-label">Tool</p>
+                        <h2 class="tool-modal-title" id="tool-modal-title"></h2>
+                    </div>
+                </div>
+
+                <p class="tool-modal-description" id="tool-modal-description"></p>
+            </div>
+        </dialog>
+
+        <script src="../js/tools.js"></script>
+    </body>
 </html>

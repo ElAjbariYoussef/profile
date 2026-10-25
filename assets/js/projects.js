@@ -728,14 +728,21 @@
     empty.textContent = 'Loading projects...';
     empty.hidden = false;
 
-    fetch(DATA_URL)
+    fetch(DATA_URL, { cache: 'no-store' })
         .then(function (response) {
             if (!response.ok) throw new Error('Project data error');
             return response.json();
         })
         .then(initialize)
-        .catch(function () {
-            empty.textContent = 'Could not load project data.';
+        .catch(function (error) {
+            if (window.console) console.error('Could not load project data:', error);
+
+            if (window.location.protocol === 'file:') {
+                empty.textContent = 'Project data cannot be loaded from a file:// page. Run "python3 -m http.server 8000" from the repository root, then open http://localhost:8000/assets/pages/projects.html.';
+            } else {
+                empty.textContent = 'Could not load project data. Make sure assets/json/projects.json exists and is accessible.';
+            }
+
             empty.hidden = false;
         });
 })();

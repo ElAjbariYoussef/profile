@@ -351,6 +351,29 @@
       "stars": 0,
       "forks": 0,
       "details": "A PHP application that centralizes project planning, task tracking, and workflow organization for teams."
+    },
+    {
+      "name": "NotifTweak",
+      "description": "A Flutter & Kotlin android app that lets the user customize how he receives notifications.",
+      "url": "",
+      "visibility": "private",
+      "language": "Dart",
+      "languageColor": "#00ADD8",
+      "stars": 0,
+      "forks": 0,
+      "details": "A mobile solution that enables users to control when, how, and which notifications they receive by offering granular filtering, intelligent delivery, and customizable audio controls. Users can silence alerts and schedule them to arrive in batched summaries, while automatically discarding low-priority updates; such as muting promotional messages from an app while retaining essential service updates. Additionally, the system features customizable notification sounds per app and a sound cooldown timer to prevent continuous audio alerts during rapid notification bursts."
+    },
+
+    {
+      "name": "Offline Authenticator",
+      "description": "A Flutter app that provides the ability to store, and sync with a cloud server TOTPs.",
+      "url": "",
+      "visibility": "private",
+      "language": "Dart",
+      "languageColor": "#00ADD8",
+      "stars": 0,
+      "forks": 0,
+      "details": "A Flutter app that provides the ability to store, and sync with a cloud server TOTPs, it comes paired with OtpServer."
     }
   ]
 }

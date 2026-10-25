@@ -1,0 +1,4 @@
+*** You are running in headless mode.
+1792940638469	Marionette	INFO	Marionette enabled
+1792940638878	Marionette	INFO	Listening on port 2831
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
