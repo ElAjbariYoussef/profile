@@ -91,6 +91,26 @@ h1 {
     font-family: var(--font-ui);
 }
 
+.info-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 26px;
+    row-gap: 18px;
+    margin: 0;
+}
+
+.info-list dt {
+    font-weight: 600;
+}
+
+.info-list dd::before {
+    content: ": ";
+}
+
+.info-list dd {
+    margin: 0;
+}
+
 .side {
     position: sticky;
     top: 100px;
