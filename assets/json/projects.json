@@ -2,6 +2,27 @@
   "profileAvatar": "https://avatars.githubusercontent.com/u/181563201?v=4",
   "projects": [
     {
+      "name": "discord-rust",
+      "description": "A rust library that wraps Discord bot API.",
+      "url": "https://github.com/notwinterdust/discord-rust",
+      "visibility": "public",
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "stars": 0,
+      "forks": 0,
+      "details": "A rust library that wraps Discord bot API and that uses mainly standard only for speed.",
+      "links": [
+        {
+          "label": "Crate",
+          "url": "https://crates.io/crates/discord-rust"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://discord-rust.netlify.app"
+        }
+      ]
+    },
+    {
       "name": "ASCII-Paint",
       "description": "A desktop ASCII art and animation editor.",
       "url": "https://github.com/DustDevStudio/ASCII-Paint",
